@@ -10,10 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs
-        .sendForm('service_y315zst', 'template_2u72gov', form.current, {
-            publicKey: 'y7o7ZXi1gyIaKWOLJ',
-        })
+        emailjs.sendForm('service_y315zst', 'template_2u72gov', form.current, 'y7o7ZXi1gyIaKWOLJ')
         .then(
             () => {
                 console.log('SUCCESS!');
