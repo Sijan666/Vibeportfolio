@@ -1,9 +1,8 @@
 import React from 'react';
-import Container from '../Container'; // আপনার ফোল্ডার পাথ অনুযায়ী
+import Container from '../Container';
 import Flex from '../Flex';
 
 const Skills = () => {
-    // ডাটা অ্যারে: নতুন স্কিল যোগ করতে চাইলে শুধু এখানে অ্যাড করলেই হবে
     const skills = [
         { name: "HTML5", icon: "fa-brands fa-html5", color: "text-orange-500" },
         { name: "CSS3", icon: "fa-brands fa-css3-alt", color: "text-blue-500" },
@@ -18,7 +17,7 @@ const Skills = () => {
     return (
         <section id="skills" className="py-24 bg-[#020617] relative border-t border-white/5">
             
-            {/* Background Decoration (Subtle Glow) */}
+            {/* Background */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-200 h-200 bg-[#0ea5e9]/5 rounded-full blur-[100px] -z-10"></div>
 
             <Container>
@@ -42,7 +41,7 @@ const Skills = () => {
                             key={index} 
                             className="group relative bg-[#1e293b]/20 backdrop-blur-sm border border-white/5 p-8 rounded-2xl text-center hover:border-[#0ea5e9]/50 hover:bg-[#1e293b]/40 transition-all duration-300 hover:-translate-y-2 overflow-hidden"
                         >
-                            {/* Hover Glow Effect inside card */}
+                            {/* Hover Effect  */}
                             <div className="absolute inset-0 bg-linear-to-br from-[#0ea5e9]/0 to-[#0ea5e9]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
                             {/* Icon */}

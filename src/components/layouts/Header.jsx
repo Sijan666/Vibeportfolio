@@ -13,7 +13,7 @@ const Header = () => {
                         SIJAN<span className="text-[#0ea5e9]">.</span>
                     </a>
                     
-                    {/* Navigation Links (Desktop) */}
+                    {/* Navigation Links */}
                     <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
                         <a href="#home" className="hover:text-[#0ea5e9] transition-colors duration-300">Home</a>
                         <a href="#skills" className="hover:text-[#0ea5e9] transition-colors duration-300">Skills</a>
@@ -21,7 +21,7 @@ const Header = () => {
                         <a href="#contact" className="hover:text-[#0ea5e9] transition-colors duration-300">Contact</a>
                     </div>
 
-                    {/* CTA Button */}
+                    {/* contact Button */}
                     <a 
                         href="#contact" 
                         className="hidden md:block px-6 py-2 border border-[#0ea5e9] text-[#0ea5e9] rounded-full hover:bg-[#0ea5e9] hover:text-white transition-all duration-300 font-medium text-sm shadow-[0_0_10px_rgba(14,165,233,0.1)] hover:shadow-[0_0_20px_rgba(14,165,233,0.4)]"

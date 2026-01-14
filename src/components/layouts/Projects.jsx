@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from '../Container'; // আপনার ফোল্ডার পাথ অনুযায়ী
+import Container from '../Container';
 import Flex from '../Flex';
 import orebi from '../../assets/orebi.png'
 import portfolio from '../../assets/portfolio.png'
 import game from '../../assets/game.png'
 
 const Projects = () => {
-    // প্রজেক্ট ডাটা (আপনার রিয়েল প্রজেক্ট দিয়ে পরে বদলে নিবেন)
+
     const projectList = [
         {
             id: 1,
@@ -119,7 +119,6 @@ const Projects = () => {
                         View All Projects
                     </a>
                 </div>
-
             </Container>
         </section>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../Container'; // আপনার ফোল্ডার পাথ অনুযায়ী
+import Container from '../Container';
 import Flex from '../Flex';
 
 const Footer = () => {
@@ -21,12 +21,6 @@ const Footer = () => {
                         >
                             <i className="fa-brands fa-github"></i>
                         </a>
-                        {/* <a 
-                            href="#" 
-                            className="text-gray-400 hover:text-[#0ea5e9] transition-colors duration-300 text-lg"
-                        >
-                            <i className="fa-brands fa-linkedin-in"></i>
-                        </a> */}
                         <a 
                             href="https://www.facebook.com/majharul.islam.666/" 
                             className="text-gray-400 hover:text-[#0ea5e9] transition-colors duration-300 text-lg"

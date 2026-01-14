@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../Container'; // আপনার ফোল্ডার পাথ অনুযায়ী ঠিক করে নিবেন
+import Container from '../Container';
 import Flex from '../Flex';
 import Images from '../Images';
 import aaaaaaaaaaaaaa from '../../assets/aaaaaaaaaaaaaa.png'
@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <section id="home" className="relative min-h-screen bg-[#020617] flex items-center overflow-hidden py-20 md:py-0">
             
-            {/* Background Glow Effects */}
+            {/* Background Effects */}
             <div className="absolute bottom-0 left-0 w-125 h-125 bg-[#1e1b4b] rounded-full blur-[120px] opacity-40 -z-10"></div>
             <div className="absolute top-0 right-0 w-150 h-150 bg-[#172554] rounded-full blur-[120px] opacity-30 -z-10"></div>
 
@@ -56,14 +56,8 @@ const Banner = () => {
                     {/* Right Image */}
                     <div className="w-full md:w-1/2 flex justify-center md:justify-end relative z-10 order-1 md:order-2">
                         <div className="relative w-75 h-75 md:w-120 md:h-120 flex items-center justify-center">
-                            {/* Blue Ring Glow */}
+                            {/* Blue Glow */}
                             <div className="absolute inset-0 bg-[#3b82f6] rounded-full blur-[90px] opacity-30 animate-pulse"></div>
-                            
-                            {/* <img 
-                                src="/images/aaaaaaaaaaaaaa.png" 
-                                alt="Majharul Islam Sijan" 
-                                className="" 
-                            /> */}
                             <Images imgSrc={aaaaaaaaaaaaaa} className={'relative w-70 h-70 md:w-110 md:h-110 object-cover rounded-full border-[5px] border-[#1e293b]/80 shadow-2xl z-10'}/>
                         </div>
                     </div>
